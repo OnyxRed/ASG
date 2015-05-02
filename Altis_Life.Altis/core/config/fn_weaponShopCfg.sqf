@@ -94,9 +94,9 @@ switch(_shop) do
           ];
       };
 
-      case ((__GETC__(life_coplevel) > 7) && (__GETC__(life_coplevel) < 12)):
+      case ((__GETC__(life_coplevel) > 6) && (__GETC__(life_coplevel) < 12)):
       {
-        _name = "Royal Altis Police - Senior Officer Shop";
+        _name = "Royal Altis Police - Chief Inspector's Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
@@ -148,9 +148,9 @@ switch(_shop) do
           ];
       };
 
-      case (__GETC__(life_coplevel) == 7):
+      case (__GETC__(life_coplevel) == 5):
       {
-        _name = "Royal Altis Police - Sergeant Shop";
+        _name = "Royal Altis Police - Inspector's Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
@@ -193,7 +193,7 @@ switch(_shop) do
 
       case (__GETC__(life_coplevel) == 4):
       {
-        _name = "Royal Altis Police - SPC Shop";
+        _name = "Royal Altis Police - Sergeant Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
@@ -328,7 +328,7 @@ switch(_shop) do
 
       default
       {
-        _name = "Royal Altis Police - CSO Shop";
+        _name = "Royal Altis Police - Equipment Shop";
           _items = [
             //Equipment
             ["ToolKit",nil,0],
