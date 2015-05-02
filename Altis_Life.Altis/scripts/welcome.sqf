@@ -11,20 +11,20 @@ _onScreenTime = 2; //<-- How long is the text on the screen for ? Recommended: 1
 sleep 3; //Wait in seconds before the credits start after player is in-game
 playSound "intro";
 
-_role1 = "Welcome!";
-_role1names = ["Welcome to ArmyStormGaming!"];
-_role2 = "";
-_role2names = ["Please follow the rules!"];
-_role3 = "Developers";
-_role3names = ["Hammerite"];
-_role4 = "";
-_role4names = ["Feel free to join our TeamSpeak!"];
+_role1 = "Welcome to!";
+_role1names = ["ArmyStormGaming!"];
+_role2 = "Please follow the rules!";
+_role2names = ["Admins are always watching"];
+_role3 = "Founders";
+_role3names = ["Andrew, Jordan"];
+_role4 = "Developers";
+_role4names = ["OnyxRed,Hammerite,hESIEN"];
 _role8 = "TeamSpeak";
 _role8names = ["85.236.100.139:11167"];
 _role9 = "Website";
 _role9names = ["---"];
 _role10 = "Textures by";
-_role10names = ["Jorvac & Chris"];
+_role10names = ["Davidson"];
 
 {
 sleep 2;
