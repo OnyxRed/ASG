@@ -96,7 +96,7 @@ switch(_shop) do
 
       case ((__GETC__(life_coplevel) > 6) && (__GETC__(life_coplevel) < 12)):
       {
-        _name = "Royal Altis Police - Chief Inspector's Shop";
+        _name = "Royal Altis Police - Superintendent Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
@@ -150,7 +150,7 @@ switch(_shop) do
 
       case (__GETC__(life_coplevel) == 5):
       {
-        _name = "Royal Altis Police - Inspector's Shop";
+        _name = "Royal Altis Police - Chief Inspector's Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
@@ -193,7 +193,7 @@ switch(_shop) do
 
       case (__GETC__(life_coplevel) == 4):
       {
-        _name = "Royal Altis Police - Sergeant Shop";
+        _name = "Royal Altis Police - Inspector's Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
@@ -233,7 +233,7 @@ switch(_shop) do
       //PC III
       case (__GETC__(life_coplevel) == 3):
       {
-        _name = "Royal Altis Police - Senior PC Shop";
+        _name = "Royal Altis Police - Sergeant Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
@@ -269,7 +269,7 @@ switch(_shop) do
 
       case ((__GETC__(life_coplevel) == 2) || (__GETC__(life_coplevel) == 3)):
       {
-        _name = "Royal Altis Police - PC Shop";
+        _name = "Royal Altis Police - Constable Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
