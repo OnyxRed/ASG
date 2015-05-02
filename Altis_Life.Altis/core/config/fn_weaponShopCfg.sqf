@@ -93,7 +93,61 @@ switch(_shop) do
             ["NVGoggles",nil,0]
           ];
       };
+	  
+      case ((__GETC__(life_coplevel) > 7) && (__GETC__(life_coplevel) < 12)):
+      {
+        _name = "Royal Altis Police - Commissioner Shop";
+          _items = [
+            //Pistols
+            ["hgun_P07_snds_F","Taser Pistol",0],
+            ["16Rnd_9x21_Mag","Taser Magazine",0],
+            //Rifles
+            ["arifle_sdar_F","Taser Rifle",0],
+            ["20Rnd_556x45_UW_mag","Taser Rifle Magazine",0],
+            ["SMG_02_F",nil,0],
+            ["30Rnd_9x21_Mag",nil,0],
+            ["SMG_01_F",nil,0],
+            ["30Rnd_45ACP_Mag_SMG_01",nil,0],
+            ["30Rnd_45ACP_Mag_SMG_01_tracer_green",".45 30Rnd Vermin Rubber Bullet Mag",0],
+            ["arifle_TRG21_F",nil,0],
+            ["30Rnd_556x45_Stanag",nil,0],
+            ["30Rnd_556x45_Stanag_Tracer_Red","5.56mm 30rnd Rubber Bullet Mag",0],
+            ["arifle_MXC_Black_F",nil,0],
+            ["30Rnd_65x39_caseless_mag",nil,0],
+            ["30Rnd_65x39_caseless_mag_Tracer","6.5mm 30Rnd Rubber Bullet Mag",0],
+            ["arifle_MX_Black_F",nil,0],
+            ["30Rnd_65x39_caseless_mag",nil,0],
+            ["30Rnd_65x39_caseless_mag_Tracer","6.5mm 30Rnd Rubber Bullet Mag",0],
+            ["arifle_Mk20_F",nil,0],
+            ["30Rnd_556x45_Stanag",nil,0],
+            ["30Rnd_556x45_Stanag_Tracer_Red","5.56mm 30rnd Rubber Bullet Mag",0],
+            ["optic_Aco",nil,0],
+            ["optic_Aco_grn",nil,0],
+            ["optic_Holosight",nil,0],
+            ["optic_Arco",nil,0],
+			["bipod_01_F_blk",nil,0],
+			["bipod_01_F_mtp",nil,0],
+			["bipod_01_F_snd",nil,0],
+			["bipod_02_F_blk",nil,0],
+			["bipod_02_F_hex",nil,0],
+			["bipod_02_F_tan",nil,0],
+			["bipod_03_F_blk",nil,0],
+			["bipod_03_F_oli",nil,0],
 
+            //Equipment
+            ["ToolKit",nil,0],
+            ["Medikit",nil,0],
+            ["FirstAidKit",nil,0],
+            ["Binocular",nil,0],
+            ["ItemGPS",nil,0],
+            ["ItemCompass",nil,0],
+            ["ItemWatch",nil,0],
+            ["ItemMap",nil,0],
+            ["ItemRadio",nil,0],
+            ["NVGoggles",nil,0]
+          ];
+      };
+	  
       case ((__GETC__(life_coplevel) > 6) && (__GETC__(life_coplevel) < 12)):
       {
         _name = "Royal Altis Police - Superintendent Shop";
@@ -303,7 +357,7 @@ switch(_shop) do
 
       case (__GETC__(life_coplevel) == 1):
       {
-        _name = "Royal Altis Police - PCSO Shop";
+        _name = "Royal Altis Police - Cadet Shop";
           _items = [
             //Pistols
             ["hgun_P07_snds_F","Taser Pistol",0],
