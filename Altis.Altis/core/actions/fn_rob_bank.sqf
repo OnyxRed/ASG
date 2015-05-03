@@ -34,7 +34,7 @@ if(_chance >= 25) then
 };
 
 _cops = (west countSide playableUnits);
-if(_cops < 6) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "You cannot rob the Bank unless there is 7 police officers online!";};
+if(_cops < 5) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "You cannot rob the Bank unless there is 5 police officers online!";};
 disableSerialization;
 
 _rip = true;
