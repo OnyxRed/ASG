@@ -327,35 +327,35 @@ switch (_shop) do
 			  ["C_SUV_01_F",23500];
 			};
 				if (__GETC__(life_coplevel) > 5) then{
-			  _return pushBack
-			  ["C_Offroad_01_F",12000];
-		  _return pushBack
-		  ["C_Van_01_box_F",35000];
-			};
-				if(__GETC__(life_coplevel) > 6) then{
 					_return pushBack
-					["C_Hatchback_01_sport_F",90000];
-			  _return pushBack
-			  ["B_MRAP_01_F",750000];
-			  _return pushBack
-			  ["I_Truck_02_covered_F",500000];
+					["C_Offroad_01_F",12000];
+					_return pushBack
+					["C_Van_01_box_F",35000];
 				};
+					if(__GETC__(life_coplevel) > 6) then{
+						_return pushBack
+						["C_Hatchback_01_sport_F",90000];
+						_return pushBack
+						["B_MRAP_01_F",750000];
+						_return pushBack
+						["I_Truck_02_covered_F",500000];
+					};
 		};
 		if (__GETC__(life_coplevel) == 12) then{
-		  _return pushBack
-		  ["B_G_Offroad_01_repair_F",30000];
-		  _return pushBack
-		  ["B_UGV_01_F",30000];
-		  _return pushBack
-		  ["I_Truck_02_box_F",30000];
-		  _return pushBack
-		  ["C_SUV_01_F",23500];
-		  _return pushBack
-		  ["B_G_Van_01_transport_F",30000];
-		  _return pushBack
-		  ["B_UAV_02_F",30000];
-		  _return pushBack
-		  ["C_Van_01_Fuel_F",30000];
+			_return pushBack
+			["B_G_Offroad_01_repair_F",30000];
+			_return pushBack
+			["B_UGV_01_F",30000];
+			_return pushBack
+			["I_Truck_02_box_F",30000];
+			_return pushBack
+			["C_SUV_01_F",23500];
+			_return pushBack
+			["B_G_Van_01_transport_F",30000];
+			_return pushBack
+			["B_UAV_02_F",30000];
+			_return pushBack
+			["C_Van_01_Fuel_F",30000];
 		};
 	};
 	case "civ_air":
@@ -495,7 +495,7 @@ switch (_shop) do
 			["I_Heli_light_03_unarmed_F",100000],
 			["O_Heli_Light_02_unarmed_F",100000],
 			["C_Heli_Light_01_civil_F",275000]
-    ];
+		];
 	};
 	
 	case "civ_ship":
@@ -513,9 +513,9 @@ switch (_shop) do
 		_return =
 		[
 			["B_Boat_Transport_01_F",3000],
-      ["B_Lifeboat",3000],
+			["B_Lifeboat",3000],
 			["C_Boat_Civil_01_police_F",20000],
-      ["C_Boat_Civil_01_rescue_F",20000],
+			["C_Boat_Civil_01_rescue_F",20000],
 			["B_Boat_Armed_01_minigun_F",75000]
 		];
 	};

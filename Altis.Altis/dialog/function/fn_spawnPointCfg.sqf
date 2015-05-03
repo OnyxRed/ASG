@@ -46,6 +46,13 @@ switch (_side) do
 			_return pushBack ["cop_spawn_HP","Highway Patrol Outpost","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
 		};
     };
+	if((license_cop_cg)&&(__GETC__(life_coplevel) == 2))then {
+		_return = _return + [
+			["cop_spawn_cg","Coast Patrol HQ",nil]
+		];
+	};
+		
+	};	
 	};
 	
 case civilian:
@@ -139,9 +146,7 @@ case civilian:
 			["pmc_1","PMC Base","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
-		
 	};
-	
 	case independent: {
 		_return = [
 			["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
