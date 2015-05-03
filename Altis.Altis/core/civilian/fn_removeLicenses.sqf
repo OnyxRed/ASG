@@ -30,7 +30,6 @@ switch (_state) do
 		license_civ_boat = false;
 		license_civ_gun = false;
 		license_civ_rebel = false;
-		license_civ_bh = false;
 		license_civ_c3 = false;
 	};
 	
